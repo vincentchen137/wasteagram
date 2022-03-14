@@ -1,16 +1,14 @@
 # wasteagram
 
-A new Flutter project.
+Wasteagram is a mobile app that enables coffee shop employees to document daily food waste in the form of "posts" consisting of a photo, number of leftover items, the current date, and the location of the device when the post is created. This application also lists all previous posts so that the owner and employees can keep track of how many food items are going to waste and adjust pastry orders accordingly.
 
-## Getting Started
+This app uses several flutter packages.
+1) location package to request permission for location services and obtains the latitude and longitude of the device to store as a "post".
+2) image_picker package to allow the user to select a photo from their gallery
+3) cloud_firestore & firebase_storage package to store data in Firestore and images in Firebase Cloud Storage, respectively 
+4) sentry_flutter package to integrate crash reporting and record application crashes
+5) test package for unit test suite
+6) integration_test package for integration test of a UX feature
+7) intl package to convert DateTime to be used as the photo's name 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+App demonstration can be seen here: https://www.youtube.com/watch?v=B1uo_NFnVys
