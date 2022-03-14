@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "847306195545",
+    "project_id": "wasteagram-bf6c0",
+    "storage_bucket": "wasteagram-bf6c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847306195545:android:be7c636f944650a80b2748",
+        "android_client_info": {
+          "package_name": "edu.oregonstate.chenvinc.wasteagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847306195545-6mog99hfp21fcda9ks7hrmet1een8fu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqACc6V_-Z0rBCyOQuyYcvTI3XwrVLbMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847306195545-6mog99hfp21fcda9ks7hrmet1een8fu0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "847306195545-mjn8fh3j0323e5m70rd9nom6l19l79dr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.oregonstate.chenvinc.wasteagram"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
