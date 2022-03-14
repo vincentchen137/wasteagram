@@ -6,7 +6,7 @@ This app uses several flutter packages.
 1) location package to request permission for location services and obtains the latitude and longitude of the device to store as a "post".
 2) image_picker package to allow the user to select a photo from their gallery
 3) cloud_firestore & firebase_storage package to store data in Firestore and images in Firebase Cloud Storage, respectively 
-4) sentry_flutter package to integrate crash reporting and record application crashes
+4) sentry_flutter package to integrate crash reporting and record application crashes in Sentry
 5) test package for unit test suite
 6) integration_test package for integration test of a UX feature
 7) intl package to convert DateTime to be used as the photo's name 
